@@ -2,7 +2,7 @@
 int x[50],g[50][50],n,i,j,m;
 void next_value(int k)
 {
-    while(1){
+    while(1){ //true
         x[k]=(x[k]+1)%(m+1);
 		if(x[k]==0)
 			return;
